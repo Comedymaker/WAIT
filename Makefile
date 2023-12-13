@@ -2,8 +2,10 @@ CC=gcc
 CFLAGS=
 
 OBJS= src/main.o \
+	  src/parse.o \
 
 OBJS_TEST= src/test.o \
+		   src/parse.o \
 
 build: $(OBJS)
 	$(CC) -o target/WAIT $(OBJS) $(CFLAGS)
