@@ -4,6 +4,6 @@
         "*.wxss": "css",
         "*.wxs": "javascript",
         "types.h": "c",
-        "parse.h": "c"
+        "type_traits": "c"
     }
 }
