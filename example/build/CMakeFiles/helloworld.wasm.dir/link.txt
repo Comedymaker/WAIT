@@ -1,0 +1,1 @@
+/home/comedymaker/my_wait/WAIT/example/../third-party/wasi-sdk-12.0/bin/clang   -nostdlib -Wl,--no-entry -Wl,--export-all -Wl,-s -Wl,--allow-undefined-file=/home/comedymaker/my_wait/WAIT/example/stubs.txt -Wl,-z,stack-size=16 CMakeFiles/helloworld.wasm.dir/helloworld/helloworld.c.o  -o ../helloworld.wasm 

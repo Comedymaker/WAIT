@@ -1,0 +1,72 @@
+Avrora [Beta 1.7.117] - (c) 2003-2007 UCLA Compilers Group
+
+Loading ../bin/aot.elf...OK
+=={ Simulation events }=======================================================
+Node          Time   Event
+------------------------------------------------------------------------------
+   0          2095  [avrora.c-print] 1 0000
+   0          9694  [avrora.c-print] 11  sys | malloc 6 426
+   0         13488  [avrora.c-print] 11  sys | malloc 29 42e
+   0         17784  [avrora.c-print] 11  sys | malloc 6 44d
+   0         21874  [avrora.c-print] 11  sys | malloc 7 455
+   0         26099  [avrora.c-print] 11  sys | malloc 8 45e
+   0         31146  [avrora.c-print] 11  sys | malloc 8 468
+   0         36047  [avrora.c-print] 11  sys | malloc 4 472
+   0         40086  [avrora.c-print] 11  sys | malloc 37 478
+   0         44319  [avrora.c-print] 11  sys | malloc 2 49f
+   0         48063  [avrora.c-print] 11  sys | malloc 26 4a3
+   0         51902  [avrora.c-print] 11  sys | malloc 4 4bf
+   0         55703  [avrora.c-print] 11  sys | malloc 9 4c5
+   0         60785  [avrora.c-print] 11  sys | realloc 4 49f 4d0
+   0         64561  [avrora.c-print] 11  sys | malloc 26 4d6
+   0         68420  [avrora.c-print] 11  sys | malloc 4 4f2
+   0         72240  [avrora.c-print] 11  sys | malloc 9 4f8
+   0         77442  [avrora.c-print] 11  sys | realloc 6 4d0 503
+   0         81237  [avrora.c-print] 11  sys | malloc 26 50b
+   0         85072  [avrora.c-print] 11  sys | malloc 4 4d0
+   0         89130  [avrora.c-print] 11  sys | malloc 29 527
+   0         94526  [avrora.c-print] 11  sys | realloc 8 503 546
+   0         98319  [avrora.c-print] 11  sys | malloc 26 550
+   0        104393  [avrora.c-print] 11  sys | realloc 10 546 56c
+   0        108205  [avrora.c-print] 11  sys | malloc 26 578
+   0        111733  [avrora.c-print] 11  sys | malloc 2 49f
+   0        117734  [avrora.c-print] 11  sys | realloc 12 56c 594
+   0        121548  [avrora.c-print] 11  sys | malloc 26 5a2
+   0        125158  [avrora.c-print] 11  sys | malloc 2 507
+   0        131253  [avrora.c-print] 11  sys | realloc 14 594 5be
+   0        135088  [avrora.c-print] 11  sys | malloc 26 5ce
+   0        138614  [avrora.c-print] 11  sys | malloc 2 503
+   0        145181  [avrora.c-print] 11  sys | malloc 119 5ea
+   0        156640  [avrora.c-print] 11  sys | malloc 14 663
+   0        161630  [avrora.c-print] 11  sys | realloc 4 0 54a
+   0        167144  [avrora.c-print] 11  sys | realloc 8 54a 56c
+   0        172804  [avrora.c-print] 11  sys | realloc 12 56c 594
+   0        178550  [avrora.c-print] 11  sys | realloc 16 594 673
+   0        183959  [avrora.c-print] 11  sys | realloc 20 673 673
+   0        189368  [avrora.c-print] 11  sys | realloc 24 673 673
+   0        194576  [avrora.c-print] 11  sys | realloc 28 673 673
+   0        200412  [avrora.c-print] 11  temp | start of compiled code:   653a
+   0        204423  [avrora.c-print] 11  sys | malloc 192 691
+   0        212303  [avrora.c-print] 11  sys | malloc 256 753
+   0        309555  [avrora.c-print] 11  sys | free 753
+   0        313797  [avrora.c-print] 11  sys | malloc 256 753
+   0        420311  [avrora.c-print] 11  sys | free 753
+   0        424553  [avrora.c-print] 11  sys | malloc 256 753
+   0        523000  [avrora.c-print] 11  sys | free 753
+   0        527249  [avrora.c-print] 11  sys | malloc 256 753
+   0        629838  [avrora.c-print] 11  sys | free 753
+   0        634931  [avrora.c-print] 11  temp | end of compiled code:   65aa
+   0        637739  [avrora.c-print] 11  temp | SP:0x10fb
+   0        646427  [avrora.c-print] 11  temp | mem[0]:1024-1055 at P:25882,size 31
+   0        654687  [avrora.c-print] 11  temp | mem[1]:1055-4818 at D:538,size 3763
+   0        658180  [avrora.c-print] 11  temp | mem_start:0x1fe
+   0        662084  [avrora.c-print] 11  temp | copy 28 B globals
+   0        667579  [avrora.c-print] 11  temp | memcpy from 0 to 0, size 0
+   0        671682  [avrora.c-print] 11  temp | start exec: 0x32af
+   0        676037  [avrora.c-print] 11 Genshin impart from WAIT! Num:
+   0        676974  [avrora.c-print] 11 3
+   0        679938  [avrora.c-print] 11  temp | counter:0
+   0        683723  [avrora.c-print] 11  temp | max stack usage:0
+   0        687470  [avrora.c-print] 11  temp | wasm func returned.
+==============================================================================
+Simulated time: 687493 cycles

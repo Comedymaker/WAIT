@@ -1,0 +1,368 @@
+000056ac 00000032 T __ashldi3
+008002ca 00000002 B avr_flash_buf_len	/home/comedymaker/my_wait/WAIT/src/wkreprog.impl.c:28
+008002cc 00000004 B avr_flash_end_of_safe_region	/home/comedymaker/my_wait/WAIT/src/wkreprog.impl.c:27
+008002d0 00000004 B avr_flash_pageaddress	/home/comedymaker/my_wait/WAIT/src/wkreprog.impl.c:26
+008002d4 00000002 B avr_flash_pagebuffer	/home/comedymaker/my_wait/WAIT/src/wkreprog.impl.c:25
+0001f800 0000009e T avr_flash_program_page	/home/comedymaker/my_wait/WAIT/src/wkreprog.impl.c:160
+00005350 00000060 T avr_flash_program_page_if_not_modified	/home/comedymaker/my_wait/WAIT/src/wkreprog.impl.c:76
+008001fd 00000001 D avroraTraceEnabledVariable	/home/comedymaker/my_wait/WAIT/src/include/AvroraTrace.h:11
+000018ca 00000024 T avr_Printf	/home/comedymaker/my_wait/WAIT/src/debug.c:33
+0000185a 00000070 T avr_VPrint	/home/comedymaker/my_wait/WAIT/src/debug.c:19
+0000058e T __bad_interrupt
+008002d6 00000144 B blct	/home/comedymaker/my_wait/WAIT/src/complile.c:20
+00000b92 00000218 T branch_pc_refill	/home/comedymaker/my_wait/WAIT/src/complile.c:23
+00800420 00000002 B __brkval
+00800424 B __bss_end
+008002ca B __bss_start
+0080041c 00000002 B code_buffer	/home/comedymaker/my_wait/WAIT/src/rtc_emit.c:64
+0080041a 00000002 B codebuffer_position	/home/comedymaker/my_wait/WAIT/src/rtc_emit.c:64
+00000b72 00000020 T compile_close	/home/comedymaker/my_wait/WAIT/src/complile.c:170
+00000daa 0000003a T compile_deinit	/home/comedymaker/my_wait/WAIT/src/complile.c:158
+00000b08 0000006a T compile_init	/home/comedymaker/my_wait/WAIT/src/complile.c:146
+00000818 00000028 T count_func	/home/comedymaker/my_wait/WAIT/src/asm.c:94
+00000550 T __ctors_end
+00000550 T __ctors_start
+008002ca D __data_end
+00006348 A __data_load_end
+0000617e A __data_load_start
+00800100 D __data_start
+008001e6 00000005 D debugbuf1	/home/comedymaker/my_wait/WAIT/src/include/AvroraPrint.h:70
+         U di_app_infusion_archive_data
+00005646 0000002e T __divmodsi4
+00005672 t __divmodsi4_exit
+00005664 t __divmodsi4_neg2
+00000576 00000010 T __do_clear_bss
+0000057e t .do_clear_bss_loop
+00000580 t .do_clear_bss_start
+0000055c 0000001a T __do_copy_data
+00000550 T __dtors_end
+00000550 T __dtors_start
+008002ca D _edata
+00810000 N __eeprom_end
+00003164 000000d0 T embed_i32load	/home/comedymaker/my_wait/WAIT/src/memory.c:11
+00003356 000000a8 T embed_i32store	/home/comedymaker/my_wait/WAIT/src/memory.c:103
+000033fe 000000a4 T embed_i32store16	/home/comedymaker/my_wait/WAIT/src/memory.c:130
+000034a2 000000a2 T embed_i32store8	/home/comedymaker/my_wait/WAIT/src/memory.c:157
+00003234 00000122 T embed_i64load	/home/comedymaker/my_wait/WAIT/src/memory.c:54
+00004598 00000004 T emit	/home/comedymaker/my_wait/WAIT/src/rtc_emit.c:85
+0000459c 00000014 T emit2	/home/comedymaker/my_wait/WAIT/src/rtc_emit.c:92
+0000094a 0000003c T emit_ADIW
+00000986 00000010 T emit_BRANCH	/home/comedymaker/my_wait/WAIT/src/asm.c:243
+00004508 0000004c T emit_flush_to_flash	/home/comedymaker/my_wait/WAIT/src/rtc_emit.c:106
+000044f6 00000012 T emit_init	/home/comedymaker/my_wait/WAIT/src/rtc_emit.c:66
+00000898 00000046 T emit_LDD	/home/comedymaker/my_wait/WAIT/src/asm.c:208
+00000924 00000026 T emit_LDI_SBCI_SUBI_CPI
+00000a62 00000072 T emit_local_deinit	/home/comedymaker/my_wait/WAIT/src/asm.c:289
+000009d2 00000090 T emit_local_init	/home/comedymaker/my_wait/WAIT/src/asm.c:262
+00000ad4 00000034 T emit_MOVW	/home/comedymaker/my_wait/WAIT/src/asm.c:310
+00000996 0000000e T emit_opcodeWithSingleRegOperand
+000009a4 0000002e T emit_opcodeWithSrcAndDestRegOperand
+00004554 00000044 T emit_raw_word	/home/comedymaker/my_wait/WAIT/src/rtc_emit.c:72
+000018ee 000017e8 T emit_single_instruction	/home/comedymaker/my_wait/WAIT/src/instructions.c:27
+000008de 00000046 T emit_STD	/home/comedymaker/my_wait/WAIT/src/asm.c:215
+0000086c 0000002c T emit_x_call_restore	/home/comedymaker/my_wait/WAIT/src/asm.c:196
+00000840 0000002c T emit_x_call_save	/home/comedymaker/my_wait/WAIT/src/asm.c:191
+00000686 0000003c T emit_x_POP_16bit	/home/comedymaker/my_wait/WAIT/src/asm.c:43
+00000616 00000070 T emit_x_POP_32bit	/home/comedymaker/my_wait/WAIT/src/asm.c:37
+000005a6 00000070 T emit_x_PUSH_32bit	/home/comedymaker/my_wait/WAIT/src/asm.c:22
+00800424 N _end
+0080011c 00000002 D entry_method	/home/comedymaker/my_wait/WAIT/src/complile.c:18
+0000617e T _etext
+0000617a T _exit
+0000617a W exit
+00800422 00000002 B __flp
+00006046 00000078 T fputc
+0000582c 00000112 T free
+00003e68 0000002e T FreeImportInfo	/home/comedymaker/my_wait/WAIT/src/parse.c:213
+00000003 W __FUSE_REGION_LENGTH__
+00800102 00000004 D global_counter	/home/comedymaker/my_wait/WAIT/src/asm.c:93
+00000000 W __heap_end
+00800424 N __heap_start
+000006cc 0000000a T idiv	/home/comedymaker/my_wait/WAIT/src/asm.c:56
+00004794 0000005c T import_malloc	/home/comedymaker/my_wait/WAIT/src/user_import.c:52
+000047f0 00000142 T import_memcpy	/home/comedymaker/my_wait/WAIT/src/user_import.c:67
+000045be 00000080 T import_memset	/home/comedymaker/my_wait/WAIT/src/user_import.c:60
+008002bc 0000000e D imports	/home/comedymaker/my_wait/WAIT/src/user_import.c:87
+008002ae 0000000e D imports_name	/home/comedymaker/my_wait/WAIT/src/user_import.c:96
+008002aa 00000004 D imports_num	/home/comedymaker/my_wait/WAIT/src/user_import.c:105
+00000550 W __init
+         U intStack
+00004f48 0000002e T is_entry_func	/home/comedymaker/my_wait/WAIT/src/utils.c:279
+000006dc 0000011e T LeadingZeros_32	/home/comedymaker/my_wait/WAIT/src/asm.c:64
+0000049d 00000005 t literal.2123
+00000466 0000001a t literal.2125
+0000049b 00000002 t literal.2127
+00000497 00000004 t literal.2128
+0000044c 0000001a t literal.2142
+00000480 00000017 t literal.2142
+0000042f 0000001d t literal.2149
+00000414 0000001b t literal.2150
+000003f7 0000001d t literal.2157
+000003dc 0000001b t literal.2158
+000003bf 0000001d t literal.2165
+000003a4 0000001b t literal.2166
+00000394 00000010 t literal.2243
+00000376 0000001e t literal.2244
+0000054d 00000002 t literal.2556
+00000540 0000000d t literal.2557
+0000053a 00000006 t literal.2558
+00000538 00000002 t literal.2559
+00000536 00000002 t literal.2560
+00000533 00000003 t literal.2561
+00000531 00000002 t literal.2562
+0000052d 00000004 t literal.2569
+0000052b 00000002 t literal.2573
+00000529 00000002 t literal.2574
+00000526 00000003 t literal.2575
+00000524 00000002 t literal.2576
+00000522 00000002 t literal.2580
+00000520 00000002 t literal.2590
+00000517 00000009 t literal.2591
+00000511 00000006 t literal.2595
+0000050f 00000002 t literal.2596
+0000050d 00000002 t literal.2600
+0000050a 00000003 t literal.2601
+00000508 00000002 t literal.2602
+00000504 00000004 t literal.2609
+00000502 00000002 t literal.2613
+00000500 00000002 t literal.2617
+000004fd 00000003 t literal.2618
+000004fb 00000002 t literal.2619
+000004f9 00000002 t literal.2623
+000004e3 00000016 t literal.2645
+000004cd 00000016 t literal.2651
+000004b3 0000001a t literal.2657
+000004a2 00000011 t literal.2661
+00000350 00000026 t literal.2805
+0000032c 00000024 t literal.2811
+00000304 00000028 t literal.2880
+000002dc 00000028 t literal.2884
+000002b4 00000028 t literal.2885
+0000028c 00000028 t literal.2889
+00000264 00000028 t literal.2890
+0000023a 0000002a t literal.2891
+00000223 00000017 t literal.2892
+00000207 0000001c t literal.2893
+000001de 00000029 t literal.2894
+000001c5 00000019 t literal.2895
+000001af 00000016 t literal.2896
+00000192 0000001d t literal.2897
+         U localReferenceVariables
+00800100 00000002 D lowest_stack	/home/comedymaker/my_wait/WAIT/src/asm.c:80
+000030d6 0000008e T main	/home/comedymaker/my_wait/WAIT/src/main.c:19
+000056fc 00000130 T malloc
+008002a2 00000002 D __malloc_heap_end
+008002a4 00000002 D __malloc_heap_start
+008002a6 00000002 D __malloc_margin
+008001fb 00000002 D malloc_record	/home/comedymaker/my_wait/WAIT/src/user_import.c:51
+008001eb 00000010 D mem_areas	/home/comedymaker/my_wait/WAIT/src/memory.c:9
+00005b08 00000012 T memcpy
+00000592 00000014 T memcpy_PF
+00003e96 00000170 T Module_AddFunction	/home/comedymaker/my_wait/WAIT/src/parse.c:293
+00800106 00000004 D module_heap_base	/home/comedymaker/my_wait/WAIT/src/complile.c:303
+000055e2 00000020 T __mulsi3
+00005696 00000016 T __muluhisi3
+00004f06 00000042 T mystrcmp	/home/comedymaker/my_wait/WAIT/src/utils.c:266
+00005674 00000010 T __negsi2
+00004f76 00000026 T NormalizeType	/home/comedymaker/my_wait/WAIT/src/utils.c:283
+00003702 00000284 T parseCode	/home/comedymaker/my_wait/WAIT/src/parse.c:472
+00003544 000001be T parseData	/home/comedymaker/my_wait/WAIT/src/parse.c:545
+00004006 000000cc T parseFunction	/home/comedymaker/my_wait/WAIT/src/parse.c:346
+00003b86 000001b2 T parseGlobal	/home/comedymaker/my_wait/WAIT/src/parse.c:421
+000041b6 000001e0 T parseImport	/home/comedymaker/my_wait/WAIT/src/parse.c:222
+0000413e 00000078 T parseMemory	/home/comedymaker/my_wait/WAIT/src/parse.c:374
+00003986 00000200 T parseType	/home/comedymaker/my_wait/WAIT/src/parse.c:149
+000040d2 0000006c T ParseType_Memory	/home/comedymaker/my_wait/WAIT/src/parse.c:362
+0000463e 0000004e T printInt	/home/comedymaker/my_wait/WAIT/src/user_import.c:18
+000007fa 0000001e T print_stack	/home/comedymaker/my_wait/WAIT/src/asm.c:81
+0000468c 00000108 T printStr	/home/comedymaker/my_wait/WAIT/src/user_import.c:24
+0000003b a __RAMPZ__
+0000003b a __RAMPZ__
+0000003b a __RAMPZ__
+0000003b a __RAMPZ__
+0000003b a __RAMPZ__
+0000003b a __RAMPZ__
+0000003b a __RAMPZ__
+0000003b a __RAMPZ__
+0000003b a __RAMPZ__
+0000003b a __RAMPZ__
+0000003b a __RAMPZ__
+0000003b a __RAMPZ__
+0000003b a __RAMPZ__
+0000003b a __RAMPZ__
+0000003b a __RAMPZ__
+0000003b a __RAMPZ__
+0000003b a __RAMPZ__
+00004e26 00000068 T ReadLEB_i32	/home/comedymaker/my_wait/WAIT/src/utils.c:124
+00004e8e 00000078 T ReadLEB_i64	/home/comedymaker/my_wait/WAIT/src/utils.c:131
+00004dca 0000005c T ReadLEB_i7	/home/comedymaker/my_wait/WAIT/src/utils.c:118
+00004932 0000024c T ReadLebSigned	/home/comedymaker/my_wait/WAIT/src/utils.c:40
+00004bd4 00000144 T ReadLEB_u32
+00004b7e 00000056 T ReadLEB_u7	/home/comedymaker/my_wait/WAIT/src/utils.c:74
+00004d62 00000068 T Read_u32	/home/comedymaker/my_wait/WAIT/src/utils.c:100
+00004d18 0000004a T Read_u8	/home/comedymaker/my_wait/WAIT/src/utils.c:86
+00004fee 000001dc T Read_utf8	/home/comedymaker/my_wait/WAIT/src/utils.c:146
+0000593e 000001ca T realloc
+         U refStack
+00004396 00000160 T rtc_optimise	/home/comedymaker/my_wait/WAIT/src/rtc_emit.c:10
+000045b0 00000008 T rtc_startBenchmarkMeasurement_Native	/home/comedymaker/my_wait/WAIT/src/user_import.c:43
+0000653a 00000001 D rtc_start_of_compiled_code_marker	/home/comedymaker/my_wait/WAIT/src/wkreprog.impl.c:14
+0080041e 00000002 B rtc_start_of_next_method	/home/comedymaker/my_wait/WAIT/src/wkreprog.impl.c:15
+000045b8 00000006 T rtc_stopBenchmarkMeasurement	/home/comedymaker/my_wait/WAIT/src/user_import.c:47
+00005b1a 0000007a T snprintf
+00800221 00000018 d s_parsers.2363
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+000010ff W __stack
+0000617c t __stop_program
+00006030 00000016 T strnlen
+0000601a 00000016 T strnlen_P
+0000522c 00000038 T sys_free	/home/comedymaker/my_wait/WAIT/src/utils.c:317
+00004f9c 00000052 T sys_malloc	/home/comedymaker/my_wait/WAIT/src/utils.c:299
+000051ca 00000062 T sys_realloc	/home/comedymaker/my_wait/WAIT/src/utils.c:311
+00005684 00000012 T __tablejump2__
+00800182 00000064 d temp.2163
+0080011e 00000064 d temp2.2164
+00006348 000001f1 D test_wasm	/home/comedymaker/my_wait/WAIT/example/helloworld.wasm.h:1
+008002a8 00000002 D test_wasm_len	/home/comedymaker/my_wait/WAIT/example/helloworld.wasm.h:45
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000192 T __trampolines_end
+00000192 T __trampolines_start
+0080010a 00000012 D ts	/home/comedymaker/my_wait/WAIT/src/complile.c:19
+000006c2 0000000a T udiv	/home/comedymaker/my_wait/WAIT/src/asm.c:52
+00005602 00000044 T __udivmodsi4
+00005628 t __udivmodsi4_ep
+0000560e t __udivmodsi4_loop
+000060be 000000bc T __ultoa_invert
+000006d6 00000006 T umul	/home/comedymaker/my_wait/WAIT/src/asm.c:60
+000056de 0000001e T __umulhisi3
+0000058e W __vector_1
+0000058e W __vector_10
+0000058e W __vector_11
+0000058e W __vector_12
+0000058e W __vector_13
+0000058e W __vector_14
+0000058e W __vector_15
+0000058e W __vector_16
+0000058e W __vector_17
+0000058e W __vector_18
+0000058e W __vector_19
+0000058e W __vector_2
+0000058e W __vector_20
+0000058e W __vector_21
+0000058e W __vector_22
+0000058e W __vector_23
+0000058e W __vector_24
+0000058e W __vector_25
+0000058e W __vector_26
+0000058e W __vector_27
+0000058e W __vector_28
+0000058e W __vector_29
+0000058e W __vector_3
+0000058e W __vector_30
+0000058e W __vector_31
+0000058e W __vector_32
+0000058e W __vector_33
+0000058e W __vector_34
+0000058e W __vector_4
+0000058e W __vector_5
+0000058e W __vector_6
+0000058e W __vector_7
+0000058e W __vector_8
+0000058e W __vector_9
+00000000 W __vector_default
+00000000 T __vectors
+00005c06 00000414 T vfprintf
+00005b94 00000072 T vsnprintf
+008001fe D __wait_end
+00001208 00000652 T wasm_call_entry_method	/home/comedymaker/my_wait/WAIT/src/complile.c:349
+00000de4 00000142 T wasm_compile_function	/home/comedymaker/my_wait/WAIT/src/complile.c:177
+000010a2 00000166 T wasm_compile_module	/home/comedymaker/my_wait/WAIT/src/complile.c:238
+00000f26 0000017c T wasm_global_init	/home/comedymaker/my_wait/WAIT/src/complile.c:305
+00003d38 00000130 T wasm_load_module	/home/comedymaker/my_wait/WAIT/src/parse.c:17
+00005540 000000a2 T wkreprog_impl_close	/home/comedymaker/my_wait/WAIT/src/wkreprog.impl.c:127
+00005264 00000026 T wkreprog_impl_get_raw_position	/home/comedymaker/my_wait/WAIT/src/wkreprog.impl.c:34
+0000528a 000000c6 T wkreprog_impl_open_raw	/home/comedymaker/my_wait/WAIT/src/wkreprog.impl.c:48
+000053b0 00000190 T wkreprog_impl_write	/home/comedymaker/my_wait/WAIT/src/wkreprog.impl.c:88
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__

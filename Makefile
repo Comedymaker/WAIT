@@ -29,3 +29,8 @@ clean:
 	rm -f target/*
 	rm -f src/*.o
 	rm -f *.txt
+
+run_example:
+	cd example && ./compile.sh
+	cd build && make
+	cd third-party && bash runwait.sh

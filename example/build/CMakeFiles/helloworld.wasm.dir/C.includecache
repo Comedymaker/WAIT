@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/comedymaker/my_wait/WAIT/example/helloworld/benchmark.h
+stdint.h
+-
+stdbool.h
+-
+AvroraPrint.h
+-
+stddef.h
+-
+
+/home/comedymaker/my_wait/WAIT/example/helloworld/helloworld.c
+benchmark.h
+/home/comedymaker/my_wait/WAIT/example/helloworld/benchmark.h
+
